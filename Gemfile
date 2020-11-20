@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.2'
 
+gem 'record_tag_helper', '~> 1.0'
 #Annotate models
 gem 'annotate'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
